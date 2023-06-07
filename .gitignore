@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build files
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage output
+coverage/
+
+# Temporary files
+*.tmp
+
+# Jest cache
+.jest/
+
+# Yarn v2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Nuxt.js generated files
+.nuxt/
+dist/
+
+# Next.js generated files
+.next/
+out/
+
+# Prisma generated files
+prisma/
+
+# Serverless generated files
+.serverless/
+
+# AWS Amplify generated files
+.amplify/
+
+# Firebase generated files
+firebase.json
+firebase-debug.log
